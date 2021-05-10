@@ -1,0 +1,130 @@
+html, #root {
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+.App{
+  background-color: #f6f7f8;
+  width: 100%;
+  height: 100%;
+  /* min-width: 90%; */
+  /* min-height: 100%; */
+  color: #eee;
+  /* margin: 0%; */
+}
+
+
+.news-item{
+  margin: 0.09em;
+  padding: 5px;
+  padding-left: 7px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(10px, auto);
+  border-style: solid;
+  border-radius: 1em;
+  border-color: black;
+}
+
+.news-title{
+  grid-row: 1;
+  grid-column: 1 / 7;
+  font-weight: bold;
+}
+
+.news-date{
+  grid-row: 2;
+  grid-column: 1 / 3;
+  font-weight: 200;
+  font-size: small;
+}
+
+.news-labels-badge{ /* alighn this to the rightest */
+  grid-row: 2;
+  grid-column: 3/6;
+  align-items: end;
+}
+
+.label-individual{
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+
+
+.body-content{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #d3d3d3;
+  height: 100%;
+  min-height: 100%;
+  overflow: scroll;
+}
+
+.news-selector{
+  flex: 20%;
+  /* background-color: #f6fff8; */
+  background-color: #ffffff;
+  overflow: hidden;
+  /* min-height: 100%; */
+}
+
+/* .news-list{
+  flex: 75%;
+  height: 100%;
+  overflow: scroll;
+} 
+*/ 
+
+.content-area{
+  flex: 60%;
+  height: 100%;
+  align-items: center;
+  align-self: center;
+  overflow: scroll;
+  /* height: 100%; */
+}
+
+/* .news-list{ */
+  /* align-items: center; */
+  /* align-self: center; */
+  /* overflow: scroll; */
+/* } */
+
+.null-component{
+  flex: 20%;
+  height: 100%;
+  background-color: #ffffff;
+  /* overflow: hidden; */
+}
+
+/* .pagination-component{ */
+  /* align-content: center; */
+/* } */
+
+.react-paginate ul {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.react-paginate li {
+  display: inline-block;
+  align-items: center;
+}
+
+.bg-silver{
+  background-color: #f6f7f8;
+}

@@ -1,0 +1,52 @@
+{
+    "natural":[
+        {
+            "geophysical":[
+                "earthquake",
+                "landslide"
+            ]
+        },
+        {
+            "meterological":[
+
+                    "storm",
+                    "rain",
+                    "thunder_and_lightning",
+                    "extreme_temperature"
+            ]
+        },
+        {
+            "hydrological":[
+                "flood",
+                "avalanche"
+            ]
+        },
+        {
+            "climatological":[
+                "drought",
+                "wildfire"
+            ]
+        },
+        {
+        "biological": [
+            "insect_infestation",
+            "epidemic"
+        ]
+        }
+        
+    ],
+    "technological":[
+        {
+            "transport_accident": [
+                "air_accident",
+                "road_accident"
+
+            ]
+        },
+        {
+        "miscellaneous": [
+            "fire_and_explosion"
+        ]
+        }
+    ]
+}
