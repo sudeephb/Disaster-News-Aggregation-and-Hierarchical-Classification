@@ -1,24 +1,38 @@
 # Disaster-News-Aggregation-and-Hierarchical-Classification
 
-Open a terminal at /backend folder.
+### In this project, disaster news are filtered out from mainstream news media, and are shown in a web application in a hierarchical category. 
 
-Run the following:
+To run the app in a local development environment:
 
-cd major_webapp
+First clone this repo.
+  
+  `cd Disaster-News-Aggregation-and-Hierarchical-Classification`
 
-python3 -m venv env
+Terminal 1:
 
-source env/bin/activate
+  `cd backend/major_webapp`
+  
+  `python3 -m venv env`
+  
+  `source ./env/bin/activate`
+  
+  `pip3 install requirements.txt`
+  
+  `python3 manage.py runserver`
+  
+Terminal 2:
 
-pip3 install -r requirements.txt
+  `cd frontend`
+  
+  `npm init`
+  
+  `npm install`
+  
+  `npm start`
+  
+Open http://localhost:3000 to view it in the browser. You wil see something like the following screenshots:
+  
 
-python3 manage.py runserver
-
-
-Open another terminal at /frontend folder.
-
-Run the following: 
-
-npm install
-
-npm start
+![UI screenshot 1](./outputs/disaster_UI1.png)
+![UI screenshot 2](./outputs/disaster_UI2.png)
+![UI screenshot 3](./outputs/disaster_UI3.png)
