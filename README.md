@@ -6,29 +6,35 @@ To run the app in a local development environment:
 
 First clone this repo.
   
-  `cd Disaster-News-Aggregation-and-Hierarchical-Classification`
+  ```
+cd Disaster-News-Aggregation-and-Hierarchical-Classification`
+```
 
 Terminal 1:
 
-  `cd backend/major_webapp`
+  ```
+  cd backend/major_webapp
   
-  `python3 -m venv env`
+  python3 -m venv env
   
-  `source ./env/bin/activate`
+  source ./env/bin/activate
   
-  `pip3 install requirements.txt`
+  pip3 install -r requirements.txt
   
-  `python3 manage.py runserver`
+  python3 manage.py runserver
+```
   
 Terminal 2:
 
-  `cd frontend`
+  ```
+  cd frontend
   
-  `npm init`
+  npm init
   
-  `npm install`
+  npm install
   
-  `npm start`
+  npm start
+```
   
 Open http://localhost:3000 to view it in the browser. You wil see something like the following screenshots:
   
