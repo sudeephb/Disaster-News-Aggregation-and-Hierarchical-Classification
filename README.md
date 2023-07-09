@@ -7,7 +7,7 @@ To run the app in a local development environment:
 First clone this repo.
   
   ```
-cd Disaster-News-Aggregation-and-Hierarchical-Classification`
+cd Disaster-News-Aggregation-and-Hierarchical-Classification
 ```
 
 Terminal 1:
